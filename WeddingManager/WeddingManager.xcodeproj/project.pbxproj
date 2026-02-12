@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		4E12B9D72F3DAF3900CB9460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E12B89D2F3B061C00CB9460 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E12B8A42F3B061C00CB9460;
+			remoteInfo = WeddingManager;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		4E12B8A52F3B061C00CB9460 /* WeddingManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeddingManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E12B9D32F3DAF3900CB9460 /* WeddingManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeddingManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +27,22 @@
 			path = WeddingManager;
 			sourceTree = "<group>";
 		};
+		4E12B9D42F3DAF3900CB9460 /* WeddingManagerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WeddingManagerTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4E12B8A22F3B061C00CB9460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E12B9D02F3DAF3900CB9460 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				4E12B8A72F3B061C00CB9460 /* WeddingManager */,
+				4E12B9D42F3DAF3900CB9460 /* WeddingManagerTests */,
 				4E12B8A62F3B061C00CB9460 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				4E12B8A52F3B061C00CB9460 /* WeddingManager.app */,
+				4E12B9D32F3DAF3900CB9460 /* WeddingManagerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +97,29 @@
 			productReference = 4E12B8A52F3B061C00CB9460 /* WeddingManager.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4E12B9D22F3DAF3900CB9460 /* WeddingManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E12B9D92F3DAF3900CB9460 /* Build configuration list for PBXNativeTarget "WeddingManagerTests" */;
+			buildPhases = (
+				4E12B9CF2F3DAF3900CB9460 /* Sources */,
+				4E12B9D02F3DAF3900CB9460 /* Frameworks */,
+				4E12B9D12F3DAF3900CB9460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E12B9D82F3DAF3900CB9460 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4E12B9D42F3DAF3900CB9460 /* WeddingManagerTests */,
+			);
+			name = WeddingManagerTests;
+			packageProductDependencies = (
+			);
+			productName = WeddingManagerTests;
+			productReference = 4E12B9D32F3DAF3900CB9460 /* WeddingManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -84,6 +132,10 @@
 				TargetAttributes = {
 					4E12B8A42F3B061C00CB9460 = {
 						CreatedOnToolsVersion = 26.2;
+					};
+					4E12B9D22F3DAF3900CB9460 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 4E12B8A42F3B061C00CB9460;
 					};
 				};
 			};
@@ -102,12 +154,20 @@
 			projectRoot = "";
 			targets = (
 				4E12B8A42F3B061C00CB9460 /* WeddingManager */,
+				4E12B9D22F3DAF3900CB9460 /* WeddingManagerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4E12B8A32F3B061C00CB9460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E12B9D12F3DAF3900CB9460 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -165,7 +225,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4E12B9CF2F3DAF3900CB9460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E12B9D82F3DAF3900CB9460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E12B8A42F3B061C00CB9460 /* WeddingManager */;
+			targetProxy = 4E12B9D72F3DAF3900CB9460 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4E12B8AE2F3B061D00CB9460 /* Debug */ = {
@@ -355,6 +430,48 @@
 			};
 			name = Release;
 		};
+		4E12B9DA2F3DAF3900CB9460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X3T869NRC3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bartoszjurczyk.WeddingManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeddingManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeddingManager";
+			};
+			name = Debug;
+		};
+		4E12B9DB2F3DAF3900CB9460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X3T869NRC3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bartoszjurczyk.WeddingManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeddingManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeddingManager";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -372,6 +489,15 @@
 			buildConfigurations = (
 				4E12B8B12F3B061D00CB9460 /* Debug */,
 				4E12B8B22F3B061D00CB9460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E12B9D92F3DAF3900CB9460 /* Build configuration list for PBXNativeTarget "WeddingManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E12B9DA2F3DAF3900CB9460 /* Debug */,
+				4E12B9DB2F3DAF3900CB9460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
