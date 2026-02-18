@@ -21,9 +21,23 @@
 		4E12B9D32F3DAF3900CB9460 /* WeddingManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeddingManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4E12BA8B2F3EFDE200CB9460 /* Exceptions for "WeddingManager" folder in "WeddingManagerTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				SavingsModule/Model/Currency.swift,
+				SavingsModule/Model/CurrencyValue.swift,
+			);
+			target = 4E12B9D22F3DAF3900CB9460 /* WeddingManagerTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4E12B8A72F3B061C00CB9460 /* WeddingManager */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4E12BA8B2F3EFDE200CB9460 /* Exceptions for "WeddingManager" folder in "WeddingManagerTests" target */,
+			);
 			path = WeddingManager;
 			sourceTree = "<group>";
 		};
