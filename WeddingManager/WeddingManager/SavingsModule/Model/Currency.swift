@@ -38,4 +38,19 @@ enum Currency: Hashable, CaseIterable {
         case .usd: "🇺🇸"
         }
     }
+
+    var sign: String {
+        switch self {
+        case .pln: return "ZŁ"
+        case .usd: return "$"
+        case .eur: return "€"
+        }
+    }
+
+    func convert(amount: Double, to target: Currency) -> Double {
+        guard amount != 0 else { return 0 }
+        // Convert self amount to USD, then from USD to the target currency
+        return (amount * self.rateToUSD) / target.rateToUSD
+    }
+
 }

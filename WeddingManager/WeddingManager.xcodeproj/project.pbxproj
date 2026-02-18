@@ -26,6 +26,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				SavingsModule/Model/Currency.swift,
+				SavingsModule/Model/CurrencyValue.swift,
 			);
 			target = 4E12B9D22F3DAF3900CB9460 /* WeddingManagerTests */;
 		};
